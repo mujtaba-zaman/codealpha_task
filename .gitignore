@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Packaging and tooling
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter and local IDE files
+.ipynb_checkpoints/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# ML-generated artifacts
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+checkpoints/
+outputs/
+results/
+
+# Large raw datasets and generated preprocessing files
+**/dataset/RAVDESS/**/*.wav
+**/dataset/processed/
+
+# OS files
+.DS_Store
+Thumbs.db
